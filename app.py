@@ -94,8 +94,6 @@ def log_call():
         return "", 400
 
 
-
-
 if __name__ == '__main__':
     if not db.get_tables_for_bind():
         db.create_all()
